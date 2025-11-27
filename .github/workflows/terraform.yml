@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       actions:
-        description: "Terraform action to perform"
+        description: "Terraform  action to perform"
         required: true
         default: "apply"
         type: choice
