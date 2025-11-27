@@ -1,7 +1,7 @@
 variable "bucket_name" {
   description = "Name of the S3 bucket"
   type        = string
-  default     = "vaibhavi-practice-bucket-1"
+  default     = "vaibhavi-practice-bucket-2"
 }
 
 variable "bucket_tags" {
@@ -16,7 +16,7 @@ variable "bucket_tags" {
 variable "iam_user_name" {
   description = "Name of the IAM user"
   type        = string
-  default     = "vaibhavi"
+  default     = "vaibhavi2"
 }
 
 variable "iam_user_path" {
