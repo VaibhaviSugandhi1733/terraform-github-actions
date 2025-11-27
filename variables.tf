@@ -1,14 +1,14 @@
 variable "bucket_name" {
   description = "Name of the S3 bucket"
   type        = string
-  default     = "vaibhavi-practice-bucket-2003"
+  default     = "vaibhavi-practice-bucket-2004"
 }
 
 variable "bucket_tags" {
   description = "Tags for S3 bucket"
   type        = map(string)
   default = {
-    Name        = "vaibhavi-practice-bucket-2003"
+    Name        = "vaibhavi-practice-bucket-2004"
     Environment = "Dev"
   }
 }
@@ -16,7 +16,7 @@ variable "bucket_tags" {
 variable "iam_user_name" {
   description = "Name of the IAM user"
   type        = string
-  default     = "vaibhavi2003"
+  default     = "vaibhavi2004"
 }
 
 variable "iam_user_path" {
