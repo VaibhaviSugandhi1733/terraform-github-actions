@@ -72,3 +72,8 @@ variable "instance_tags" {
     Name = "my-instance"
   }
 }
+
+variable "aws_region" {
+  type = string
+  default = "ap-south-1"
+}
