@@ -1,7 +1,7 @@
 variable "bucket_name" {
   description = "Name of the S3 bucket"
   type        = string
-  default     = "vaibhavi-practice-bucket"
+  default     = "vaibhavi-practice-bucket-1"
 }
 
 variable "bucket_tags" {
